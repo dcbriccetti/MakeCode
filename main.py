@@ -35,5 +35,5 @@ def on_received_string(receivedString):
         servos.P1.set_angle(178)
         music.stop_all_sounds()
     elif receivedString == 'play':
-        music.play_tone(tones[delay_units], 2 * 1000)
+        music.play_tone(tones[delay_units], 1000)
 radio.on_received_string(on_received_string)

@@ -32,7 +32,7 @@ radio.onReceivedString(function on_received_string(receivedString: string) {
         servos.P1.setAngle(178)
         music.stopAllSounds()
     } else if (receivedString == "play") {
-        music.playTone(tones[delay_units], 2 * 1000)
+        music.playTone(tones[delay_units], 1000)
     }
     
 })
