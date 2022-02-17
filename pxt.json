@@ -1,5 +1,5 @@
 {
-    "name": "Gates",
+    "name": "Gate Controller",
     "description": "",
     "dependencies": {
         "core": "*",
